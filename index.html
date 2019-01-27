@@ -1,83 +1,492 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>A Profile Page</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-	<script type="text/javascript">
-  writeRandomQuote = function () {
-    var quotes = new Array();
-    quotes[0] = "Action is the real measure of intelligence.";
-    quotes[1] = "Baseball has the great advantage over cricket of being sooner ended.";
-    quotes[2] = "Every goal, every action, every thought, every feeling one experiences, whether it be consciously or unconsciously known, is an attempt to increase oneâ€™s level of peace of mind.";
-    quotes[3] = "A good head and a good heart are always a formidable combination.";
-    var rand = Math.floor(Math.random()*quotes.length);
-    document.write(quotes[rand]);
-  }
-  writeRandomQuote();
-</script>
-</head>
-<body>
+<!DOCTYPE HTML>
+<html oncontextmenu="return false;">
+    <head>
 
-<div id="wrapper">
-    
-	<div id="header">
-		<div id="nav"><a href="index.html">Home</a> | <a href="#">About Me</a> | <a href="#">Hire Me</a> | <a href="#">My Portfolio</a></div> 
-		<div id="bg"></div>
-	</div>
-	
-	<div id="main-content">
-		<div id="left-column">
-			<div id="logo">
-			Welcome to Bashir Korede's Profile Page
-			</div>
-			<div class="box">
-        		<h1>What You'll Find Here</h1>
-        		<p>This is my space. Here are some of my interests: </p>
-				<ul style="margin-top:10px;">
-					<li>Praying</li>
-					<li>Writing cool codes</li>
-					<li>Playing GTA</li>
-					<li>Wearing jeans lol</li>
-					<li>React Native</li>
-				</ul>
-			</div>
-			<h2>Some Of My Famous Quotes</h2>
-			<p>
-				<img src="https://web.facebook.com/photo.php?fbid=1441894042538268&set=a.105978852796467.9483.100001530585485&type=3&theater
-" width="139" height="150" style="margin: 0 10px 10px 0;float:left;" />
-				
-				<em>"Do It, Do It Right, Do It Right Now"</em> - Me<br/>
-				<em>"Would I rather be feared or loved? Easy, both. I want people to be afraid of how much they love me."</em> - Me<br/>
-				<em>"Make the world more open, and enjoy an open and connected world"</em> - Me<br/>
-				<em>"Don't Learn to patch bugs out, learn to rewrite them, and fix them"</em> - Me<br/>
-			
-			</p>
-		</div>
-		<div id="right-column">
-			<div id="main-image"><img src="https://web.facebook.com/photo.php?fbid=1441894042538268&set=a.105978852796467.9483.100001530585485&type=3&theater
-" width="160" height="188" /></div>
-			<div class="sidebar">
-				<h3>Few Stuffs About Me</h3>
-				<p>My name is Bashir Korede. And I love eating and drinking code, I am the Circle Lead for <a href="https://web.facebook.com/groups/DevCAdoEkiti" target="_blank">Facebook Developer Circle: Ado-Ekiti.</a></p>
-				<h3>Find Me Elsewhere</h3>
-				<div class="box">
-					<ul>
-						<li><a href="http://facebook.com/Mr.Bashir.Korede" target="_blank">Facebook</a></li>
-						<li><a href="http://twitter.com/khoeblaze" target="_blank">Twitter</a></li>
-						<li><a href="http://linkedin.com/in/bashir-korede" target="_blank">LinkedIn</a></li>
-						<li><a href="http://github.com/bashirk" target="_blank">Github</a></li>
-				
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<em><script type="text/javascript">writeRandomQuote();</script></em>
-	<div id="footer">
-		Copyright &copy; 2017 Bashir Korede. All rights reserved.<br/>
-		Mini webpage project designed for <a href="http://flexisaf.com" target="_blank">FlexiSAF EduSoft Limited</a>'s FIP project
-	</div>
-</div>
+        <style type="text/css">
 
-</body>
-</html>
+
+            body{
+
+                background-color: #f5f5f5;
+
+                margin: 0;
+
+                padding: 0;
+
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+            }
+
+
+            .page {
+
+                margin: 40px;
+
+            }
+
+
+            h1{
+
+                margin: 40px 0 60px 0;
+
+            }
+
+
+            .dark-area {
+
+                background-color: #666;
+
+                padding: 40px;
+
+                margin: 0 -40px 20px -40px;
+
+                clear: both;
+
+            }
+
+
+            .clearfix:before,.clearfix:after {
+                content: " "; display: table;}
+
+
+            .clearfix:after {clear: both;}
+
+
+            .clearfix {*zoom: 1;}
+
+
+
+
+            .affix {
+                top:0;
+                width: 100%;
+                z-index: 9999 !important;
+            }
+            .navbar {
+                margin-bottom: 0px;
+            }
+
+            .affix ~ .container-fluid {
+                position: relative;
+                top: 50px;
+            }
+
+            .top-menu ul li:nth-child(3) {
+                margin-right: 0 !important;
+            }
+
+        </style>
+
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content=/>  
+
+
+
+        <title>Naveen Sundar Nagaraj | Profile</title>
+
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+        <<link href="css/style2.css" rel="stylesheet" type="text/css" media="all" />
+
+
+    </head>
+    <body>	
+
+
+
+
+
+
+        <div class="header" id="head1">
+            <div class="container" >
+                <div class="banner-info" style="padding-top:50px;padding-bottom:10px">
+                    <h2>Naveen Sundar Nagaraj</h2>
+                    <h3 >Intern at Cognizant Techniology Solutions</h3>
+                    <p>To seek a position in an organisation and contribute towards its growth as 
+a team player utilizing the opportunities it provides to improve my skills and expand my professional horizon.
+                    </p>
+                    <a href="#about" class='scroll'>Know More About Me</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="skill" id="skill">
+            <div class="container">
+                <h3>My Skills</h3>
+                <div class="skill-grids col-md-8 col-md-offset-1 col-sm-8 col-sm-offset-1 "  style="margin: 0px;width: 100%;">
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="c100 p80 default orange">
+
+                            <span><img src='images/1.png' style="z-index:999; height:70px; width:70px; "></span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="c100 p70 default blue">
+                            <span><img src='images/2.png' style="z-index:999; height:50px; width:50px; "></span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="c100 p40 default green">
+                            <span><img src='images/8.png' style="z-index:999; height:70px; width:70px; "></span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="c100 p90 default orange">
+                            <span><img src='images/4.jpg' style="z-index:999; height:70px; width:70px; "></span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="c100 p80 default green">
+                            <span><img src='images/5.jpg' style="z-index:999; height:70px; width:70px; "></span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="c100 p60 default green">
+                            <span><img src='images/6.png' style="z-index:999; height:70px; width:70px; "></span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="c100 p80 default orange">
+                            <span><img src='images/7.png' style="z-index:999; height:70px; width:70px; "></span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="c100 p70 default blue">
+                            <span><img src='images/8.jpg' style="z-index:999; height:70px; width:70px; "></span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="clearfix"> </div>
+
+                </div>
+            </div>	
+        </div>
+
+
+
+
+
+
+        <!--//my-skill-->
+
+        <!--Service-->
+        <div id="service" class="service">
+            <div class="container">
+                <h3>Projects</h3>	
+                <div class="service-grids">
+                    <div class="icon-grids">
+                        <div class="col-md-6 futr-grid futr1">
+                            <div class="icon-pic">
+                                <div class="icon text-center">
+                                    <span> <img src='images/p1.png' style="z-index:999; height:68px; width:68px; "></span>
+                                </div>
+                            </div>
+                            <div class="icon-info">
+                                <h4>Design and Fabrication of Rotary seals Test setup arrangement</h4>							
+                                <p>Designing the test setup to run and check the efficiency of rotary seals to minimize the air leakage and so to increase the overall efficiency of the Turbo machines.</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="col-md-6 futr-grid">
+                            <div class="icon-pic">
+                                <div class="icon text-center">
+                                    <span> <img src='images/p2.png' style=" height:68px; width:68px; "></span>
+                                </div>
+                            </div>
+                            <div class="icon-info">
+                                <h4>Design and Fabrication of Banana Stem extractor</h4>						 <p>The extraction process of Banana stem through the mechanism by which the human effort can be reduced and the production can be increased. </p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--about-->
+        <div id="about" class="about">	 
+            <div class="about-left">
+                <div style="padding-left:50%;"><span><img src='images/me.jpg' style=" height:30%; width:50%; "></span>
+                </div>
+            </div>
+            <div class="about-right">
+                <h3>About Me</h3>
+                <h4></h4>
+                <p>Hi there, I am Naveen Sundar Nagaraj from TamilNadu. I have recently joined Cognizant Technology Solutions as a Intrern. 
+			on 5th Jan 2019, after completing my 7th Semester in Mechcanical Engineerign course . I am currently under a training for "Day 1 Project ready."
+			I always try to grasp quickly and
+			contribute productively at work. Being obsessed with new technology, I love to learn them and enjoy its 
+			applications. I also love to spent my leisure time with my friends and family and doing some social work as 
+                  a volunteer.</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- education -->
+
+        <div id="experience" class="experience">
+
+            <div class="container">
+                <h3>Education Details</h3>
+                <div class="w3-agileits-expinfo">    
+                    <div class="experience-grids">
+                        <div class="experience-left">
+                            <h6>2015-2019<span>(4 Years)</span> </h6>
+                            <h5>ANNA UNIVERSITY</h5>
+                        </div>
+                        <div class="experience-right">
+                            <h4>Bachelor iof Engineering in Mechanical Engineering</h4>
+
+                            <p>MEPCO Schlenk Engineering College, Sivakasi</p><p>DGPA 7.9</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div> 
+                    <div class="experience-grids experience-grids-btm">
+                        <div class="experience-left">
+                            <h6>2014-2015<span></span></h6>
+                            <h5>HSC</h5>
+                        </div>
+                        <div class="experience-right">
+                            <h4>Higher Secondary Education (Class XII) in Computer Science</h4>
+
+                            <p>KVS Matriculation Higher Secondary School, Virudhunagar</p><p>89.67%</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>  
+                    <div class="experience-grids w3-agileits">
+                        <div class="experience-left">
+                            <h6>2012-2013<span></span></h6>
+                            <h5>SSLC</h5>
+                        </div>
+                        <div class="experience-right">
+                            <h4>Secondary Education (Class X)</h4>
+
+                            <p>KVS Matriculation Higher Secondary School, Virudhunagar</p><p>94.5%</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div> 
+                </div>
+            </div>
+
+        </div>
+        <!-- //education -->
+
+        <div id="gallery" class="gallery">
+            <div class="container">
+                <h3>My Interests</h3>
+                <div class="gallery-info">
+                    <div class="col-md-3 col-sm-6  galry-grids moments-bottom">
+                        <div class="b-link-stripe b-animate-go" >
+                            <img src="images/i1.jpg" class="img-responsive" alt="">
+                            <div class="b-wrapper">
+                                <span class="b-animate b-from-left    b-delay03 ">
+                                    <h4>Photography</h4>
+                                </span>					
+                            </div>
+                        </div>				
+                    </div>
+                    <div class="col-md-3 col-sm-6 galry-grids moments-bottom">
+                        <div class="b-link-stripe b-animate-go" >
+                            <img src="images/i2.jpg" class="img-responsive" alt="">
+                            <div class="b-wrapper">
+                                <span class="b-animate b-from-left b-delay03 ">
+                                    <h4>Numismatics</h4>
+                                </span>					
+                            </div>
+                        </div>				
+                    </div>
+                    <div class="col-md-3 col-sm-6  galry-grids moments-bottom">
+                        <div class="b-link-stripe b-animate-go" >
+                            <img src="images/i3.jpg" class="img-responsive" alt="">
+                            <div class="b-wrapper">
+                                <span class="b-animate b-from-left    b-delay03 ">
+                                    <h4>Travelling</h4>
+                                </span>					
+                            </div>
+                        </div>				
+                    </div>
+                    <div class="col-md-3 col-sm-6  galry-grids moments-bottom">
+                        <div class="b-link-stripe b-animate-go" >
+                            <img src="images/i4.jpg" class="img-responsive" alt="">
+                            <div class="b-wrapper">
+                                <span class="b-animate b-from-left    b-delay03 ">
+                                    <h4>Volunteer</h4>
+                                </span>					
+                            </div>
+                        </div>				
+                    </div>
+
+
+
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <!---->
+
+
+
+
+        <div id="blog" class="blog">
+            <div class="container">
+                <h3>Achievements</h3>
+                <div class="blog-grids">
+                    <div class="col-md-4 blog-grid">
+
+                        <h4><a>National Level Examination</a></h4>
+                        <span>March 2017</span>
+                        <p>Completed GETS Examination with B2 Grade.
+                 <p>Completed Online course in “Manufacturing Technology I” conducted by NPTEL and certified for passing the final exam.</p>
+	<p>Completed Online course in “Finite Elemental Analysis” conducted by NPTEL and certified for passing the final exam.
+</p>				 				 
+                    </div>
+                    <div class="col-md-4 blog-grid">
+
+                        <h4><a>Animation and Designing Competition</a></h4>
+                        <span>January 2013</span>
+                         <p>Received First Prize in Desigining Competition in Tier 2 events Conducted by SAE INDIA</p>
+                  <p>Received Third Prize in Desigining Competition in Tier 3 events Conducted by SAE INDIA</p>
+                    </div>
+                    <div class="col-md-4 blog-grid">
+
+                        <h4><a>Vechicle Manufacturing Challange</a></h4>
+                        <span>2010-2011</span>
+                        <p>Secured overall 11th position in India and 2nd position in TamilNadu.</p>
+                    </div>
+
+                    <div class="col-md-4 blog-grid">
+
+                        <h4><a>ANALYSIS Workshop</a></h4>
+                        <span>May 2017</span>
+                        <p>>Participated in "Basic course in ANSYS CFD" Workshop.</p>				 
+                    </div>
+                    <div class="col-md-4 blog-grid">
+
+                        <h4><a>Workshop and Courses</a></h4>
+                        <span>2014-2017</span>
+                        <p>Participated in RoboFeast-2016 National Arduino Workshop cum Championship conducted inassociation with IIT ROORKEE.</p>
+                 <p>Completed a one week Value Added course on “MATLAB for Engineering Applications.</p>
+                    </div>
+                    <div class="col-md-4 blog-grid">
+
+                        <h4><a>Participation</a></h4>
+                        <span>2011</span>
+                         <p>Overall 26th position in All over India in Virtual round of Hybrid Vehicle Challenge conducted by ISIE on 19th and 20th of August, 2017.</p>
+                 <p>Participated in the Paper Presentation Competition in the event ARCUEZ’18, conducted by National Engineering College, Sivakasi.</p> 
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="contact" class="contact">
+            <div class="container">
+
+                <div class="touch-top">
+                    <div class="col-md-6 touch-left"  style="text-align:center">
+
+                        <span  style ="width:100%; height:100%;"><img src='images/map.png' style ="width:100%; height:100%;" ></span>
+
+
+                    </div>
+                    <div class="col-md-6 touch-right" style="text-align:center">
+                        <h3>Contact Me</h3>
+                        <h5 id='findMe'>For Any Questions or Feedback, Please feel free to Contact me.</h5>
+                        <div class="touch-right-top">
+                            <span class="add"></span>
+                            <h4>Ramaniyam Apartments, Kazhipattur Village, OMR Road, Siruseri, Chennai</h4>
+                        </div>
+                        <div class="touch-right-top">
+                            <span class="mail"></span>
+                            <p><a href="NaveenSundar.Nagaraj@cognizant.com">NaveenSundar.Nagaraj@cognizant.com</a></p>
+                            <p><a href="mailto:naveensundar97@gmail.com">naveensundar97@gmail.com</a></p>
+                        </div>
+                        <div class="touch-right-top">
+                            <span class="num"> </span>
+                            <p>+91-8300113301</p>
+                        </div><br/>
+                        <!--<a href="media/Resume.pdf" download class='btn btn-primary'>Download My CV</a> -->
+
+
+
+
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <p>Copyrights © 2019 All rights reserved |&nbsp<a href="mailto:NaveenSundar.Nagaraj@cognizant.com" style="color:rgba(255, 255, 255, 0.59)">Naveen Sundar Nagaraj</a></p>
+                <!--<div class="social">							
+                                <a href="#"><i class="facebook"></i></a>
+                                <a href="#"><i class="linkedin"></i></a>
+                                <a href="#"><i class="dribble"></i></a>	
+                                <a href="#"><i class="google"></i></a>	
+                                <a href="#"><i class="youtube"></i></a>	
+                 </div> -->
+
+            </div>
+        </div>
+
+
+    </body>
+
+</html>		
+
